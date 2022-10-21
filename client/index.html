@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a random fortune</button>
+
+    <!--Motivating Figures-->
+
+    <h2 class="formhead">Add Motivating Figure</h2>
+    <form>
+      <input type="text" id="name" placeholder="Name of motivator"/>
+      <input type="text" id="networth" placeholder="Networth of motivator"/>
+      <input type="text" id="image" placeholder="URL image of motivator"/>
+      <button class="motiveBtn">Add</button>
+    </form>
+
+    <section id="figuresContainer"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>

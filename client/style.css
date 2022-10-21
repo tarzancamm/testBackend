@@ -1,0 +1,102 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 25px 25px;
+}
+
+body {
+    background-color: rgb(242, 242, 241);
+}
+
+input {
+    height: 30px;
+    margin: 6px 6px;
+    background-color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+button {
+    margin: 20px 20px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.formhead {
+    margin-top: 40px;
+    margin-bottom: 25px;
+    margin-left: 40px;
+}
+
+.motiveBtn {
+    height: 40px;
+    border-radius: 5px;
+}
+
+.motiveBtn:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+#figuresContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 55px;
+}
+
+.motivator-card {
+    width: 385px;
+    display: flex;
+    flex-direction: column;
+    margin: 25px;
+}
+
+.motivator-cover-image {
+    width: 385px;
+    height: 325px;
+    border-radius: 8px 8px;
+}
+
+.btns-container {
+    display: flex;
+    justify-content: center;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 1px;
+}
+
+.motivator-networth {
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    padding: 15px;
+}
+
+.add {
+    width: 50px;
+}
+
+.title {
+    font-weight: light;
+    font-size: 15px;
+    border: 1.5px solid black;
+    padding: 5px 5px;
+    border-radius: 5px;
+    width: 65px
+}

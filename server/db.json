@@ -1,0 +1,20 @@
+[
+    {
+      "id": 1,
+      "name": "Steve Jobs",
+      "netWorth": 10200000000,
+      "image" : "https://allaboutstevejobs.com/resources/img/pics/1984-01-01_00403.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Arnold Schwarzenegger",
+      "netWorth": 450000000,
+      "image" : "https://cdn.quotesgram.com/img/96/55/604084577-bodybuilding-arnold-schwarzenegger-x-350018.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Terence Mckenna",
+      "netWorth": 0,
+      "image" : "https://payload11.cargocollective.com/1/1/60195/2536837/McKenna_.jpg"
+    }
+  ]
